@@ -1,14 +1,15 @@
 {
   "name": "Testing",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm i",
+    "build": "npm install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mean-stack-ninjas/TestingGit.git"
+    "url": "git+https://github.com/mean-stack-ninjas/TestingGit.git#master"
   },
   "keywords": [],
   "author": "Medhat Dawoud",
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/mean-stack-ninjas/TestingGit#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "bootstrap": "^3.3.4",
+    "lodash": "^4.15.0",
+    "underscore": "1.8.3"
   },
   "devDependencies": {
     "jasmine": "^2.8.0",
